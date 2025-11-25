@@ -57,8 +57,9 @@ Item {
         id: map
         source: "qrc:/cluster_hmi_img/map.png"
         anchors.horizontalCenter: background.horizontalCenter
-        anchors.bottom: background.bottom
-        anchors.bottomMargin: 200
+        anchors.verticalCenter: background.verticalCenter
+        width: 400
+        height: 200
         fillMode: Image.PreserveAspectFit
     }
 
@@ -82,64 +83,48 @@ Item {
         fillMode: Image.PreserveAspectFit
     }
 
-    Image {
-        id: oil_pressure_warning
-        source: "qrc:/cluster_hmi_img/icon/oil_pressure_warning.png"
-        anchors.left: background.left
-        anchors.leftMargin: 550
+    RowLayout {
+        id: warningIconsRow
+        anchors.horizontalCenter: background.horizontalCenter
         anchors.bottom: background.bottom
-        anchors.bottomMargin: 35
-        fillMode: Image.PreserveAspectFit
-    }
+        anchors.bottomMargin: 25
+        spacing: 40
 
-    Image {
-        id: battery_charge_warning
-        source: "qrc:/cluster_hmi_img/icon/battery_charge_warning.png"
-        anchors.left: background.left
-        anchors.leftMargin: 660
-        anchors.bottom: background.bottom
-        anchors.bottomMargin: 35
-        fillMode: Image.PreserveAspectFit
-    }
+        Image {
+            source: "qrc:/cluster_hmi_img/icon/oil_pressure_warning.png"
+            width: 55; height: 55
+            fillMode: Image.PreserveAspectFit
+        }
 
-    Image {
-        id: tire_pressure_warning
-        source: "qrc:/cluster_hmi_img/icon/tire_pressure_warning.png"
-        anchors.left: background.left
-        anchors.leftMargin: 770
-        anchors.bottom: background.bottom
-        anchors.bottomMargin: 30
-        fillMode: Image.PreserveAspectFit
-    }
+        Image {
+            source: "qrc:/cluster_hmi_img/icon/battery_charge_warning.png"
+            width: 55; height: 55
+            fillMode: Image.PreserveAspectFit
+        }
 
-    Image {
-        id: headlight_low_beam
-        source: "qrc:/cluster_hmi_img/icon/headlight_low_beam.png"
-        anchors.right: background.right
-        anchors.rightMargin: 550
-        anchors.bottom: background.bottom
-        anchors.bottomMargin: 35
-        fillMode: Image.PreserveAspectFit
-    }
+        Image {
+            source: "qrc:/cluster_hmi_img/icon/tire_pressure_warning.png"
+            width: 55; height: 55
+            fillMode: Image.PreserveAspectFit
+        }
 
-    Image {
-        id: general_warning
-        source: "qrc:/cluster_hmi_img/icon/general_warning.png"
-        anchors.right: background.right
-        anchors.rightMargin: 660
-        anchors.bottom: background.bottom
-        anchors.bottomMargin: 35
-        fillMode: Image.PreserveAspectFit
-    }
+        Image {
+            source: "qrc:/cluster_hmi_img/icon/headlight_low_beam.png"
+            width: 55; height: 55
+            fillMode: Image.PreserveAspectFit
+        }
 
-    Image {
-        id: check_engine
-        source: "qrc:/cluster_hmi_img/icon/check_engine.png"
-        anchors.right: background.right
-        anchors.rightMargin: 750
-        anchors.bottom: background.bottom
-        anchors.bottomMargin: 32
-        fillMode: Image.PreserveAspectFit
+        Image {
+            source: "qrc:/cluster_hmi_img/icon/general_warning.png"
+            width: 55; height: 55
+            fillMode: Image.PreserveAspectFit
+        }
+
+        Image {
+            source: "qrc:/cluster_hmi_img/icon/check_engine.png"
+            width: 55; height: 55
+            fillMode: Image.PreserveAspectFit
+        }
     }
 
     Image {
