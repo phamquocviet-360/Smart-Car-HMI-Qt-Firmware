@@ -1,0 +1,73 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ivi_car/angles-left-svgrepo-com.svg</file>
+        <file>ivi_car/bluetooth-square-svgrepo-com.svg</file>
+        <file>ivi_car/chrome-color-svgrepo-com.svg</file>
+        <file>ivi_car/download.png</file>
+        <file>ivi_car/holidays-vacation-summer-sun-sunny-hot-svgrepo-com.svg</file>
+        <file>ivi_car/lightBg.png</file>
+        <file>ivi_car/lock-svgrepo-com (1).svg</file>
+        <file>ivi_car/maps-gps-svgrepo-com.svg</file>
+        <file>ivi_car/media-color-2-music-album-svgrepo-com.svg</file>
+        <file>ivi_car/mute-svgrepo-com 1.svg</file>
+        <file>ivi_car/mute-svgrepo-com.svg</file>
+        <file>ivi_car/night-svgrepo-com.svg</file>
+        <file>ivi_car/play-pause-svgrepo-com.svg</file>
+        <file>ivi_car/play-svgrepo-com.svg</file>
+        <file>ivi_car/quaqua.svg</file>
+        <file>ivi_car/Rectangle 1.png</file>
+        <file>ivi_car/Rectangle 10.svg</file>
+        <file>ivi_car/Rectangle 11.svg</file>
+        <file>ivi_car/Rectangle 13.svg</file>
+        <file>ivi_car/Rectangle 2.png</file>
+        <file>ivi_car/Rectangle 4.svg</file>
+        <file>ivi_car/setting-2-svgrepo-com.svg</file>
+        <file>ivi_car/success-filled-svgrepo-com.svg</file>
+        <file>ivi_car/ticktick.svg</file>
+        <file>ivi_car/toggle-on-solid-svgrepo-com.svg</file>
+        <file>ivi_car/Vector.svg</file>
+        <file>ivi_car/Vector222.svg</file>
+        <file>ivi_car/website-home-page-svgrepo-com.svg</file>
+        <file>ivi_car/wiffinot.png</file>
+        <file>ivi_car/wifi-off-svgrepo-com.svg</file>
+        <file>ivi_car/wifi-svgrepo-com.svg</file>
+        <file>ivi_car/youtube-color-svgrepo-com.svg</file>
+        <file>ivi_car/anhnen.png</file>
+        <file>ivi_car/phone-calling.svg</file>
+        <file>ivi_car/iconBluetooth.png</file>
+        <file>ivi_car/bluetooth-square-svgrepo-com 1.svg</file>
+        <file>SettingsPage.qml</file>
+        <file>ivi_car/Rectangle 9.svg</file>
+        <file>HomePage.qml</file>
+        <file>WifiPage.qml</file>
+        <file>SplashScreen.qml</file>
+        <file>ivi_car/LogoIntro.png</file>
+        <file>ivi_car/Rectangle 14.svg</file>
+        <file>ivi_car/daycar.jpg</file>
+        <file>ivi_car/nightcar.jpeg</file>
+        <file>ivi_car/wifi-svgrepo-com 2.svg</file>
+        <file>ClusterHMI.qml</file>
+        <file>cluster_hmi_img/icon/arrow_left.png</file>
+        <file>cluster_hmi_img/icon/arrow_right.png</file>
+        <file>cluster_hmi_img/icon/battery_charge_warning.png</file>
+        <file>cluster_hmi_img/icon/check_engine.png</file>
+        <file>cluster_hmi_img/icon/fuel_station.png</file>
+        <file>cluster_hmi_img/icon/general_warning.png</file>
+        <file>cluster_hmi_img/icon/headlight_high_beam.png</file>
+        <file>cluster_hmi_img/icon/headlight_low_beam.png</file>
+        <file>cluster_hmi_img/icon/network_connection.png</file>
+        <file>cluster_hmi_img/icon/oil_pressure_warning.png</file>
+        <file>cluster_hmi_img/icon/phone_call.png</file>
+        <file>cluster_hmi_img/icon/seatbelt_warning.png</file>
+        <file>cluster_hmi_img/icon/tire_pressure_warning.png</file>
+        <file>cluster_hmi_img/icon/wireless_signal.png</file>
+        <file>cluster_hmi_img/bg.png</file>
+        <file>cluster_hmi_img/engine_temperature.png</file>
+        <file>cluster_hmi_img/fuelmeter.png</file>
+        <file>cluster_hmi_img/map.png</file>
+        <file>cluster_hmi_img/speedometer.png</file>
+        <file>cluster_hmi_img/speedometerneedle.png</file>
+        <file>cluster_hmi_img/tachometer.png</file>
+    </qresource>
+</RCC>
