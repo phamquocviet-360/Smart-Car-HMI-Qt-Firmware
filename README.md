@@ -49,28 +49,6 @@ Dự án được phát triển theo mô hình phân tách giữa:
 * Git
 * GitHub
 
-## Kiến trúc hệ thống
-
-
-+--------------------+
-|      Firmware      |
-|      ESP32         |
-+---------+----------+
-          |
-          | UART
-          |
-+---------v----------+
-|     Qt HMI App     |
-|   Data Processing  |
-+---------+----------+
-          |
-          |
-+---------v----------+
-|  Digital Cluster   |
-|      Qt/QML        |
-+--------------------+
-```
-
 ## Kết quả đạt được
 
 * Xây dựng thành công giao diện bảng đồng hồ điện tử bằng Qt/QML.
