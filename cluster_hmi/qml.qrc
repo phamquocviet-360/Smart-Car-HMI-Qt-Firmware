@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>cluster_hmi_img/icon/arrow_left.png</file>
+        <file>cluster_hmi_img/icon/arrow_right.png</file>
+        <file>cluster_hmi_img/icon/battery_charge_warning.png</file>
+        <file>cluster_hmi_img/icon/check_engine.png</file>
+        <file>cluster_hmi_img/icon/fuel_station.png</file>
+        <file>cluster_hmi_img/icon/general_warning.png</file>
+        <file>cluster_hmi_img/icon/headlight_high_beam.png</file>
+        <file>cluster_hmi_img/icon/headlight_low_beam.png</file>
+        <file>cluster_hmi_img/icon/network_connection.png</file>
+        <file>cluster_hmi_img/icon/oil_pressure_warning.png</file>
+        <file>cluster_hmi_img/icon/phone_call.png</file>
+        <file>cluster_hmi_img/icon/seatbelt_warning.png</file>
+        <file>cluster_hmi_img/icon/tire_pressure_warning.png</file>
+        <file>cluster_hmi_img/icon/wireless_signal.png</file>
+        <file>cluster_hmi_img/bg.png</file>
+        <file>cluster_hmi_img/engine_temperature.png</file>
+        <file>cluster_hmi_img/fuelmeter.png</file>
+        <file>cluster_hmi_img/map.png</file>
+        <file>cluster_hmi_img/speedometer.png</file>
+        <file>cluster_hmi_img/tachometer.png</file>
+        <file>cluster_hmi_img/speedometerneedle.png</file>
+        <file>ClusterHMI.qml</file>
+    </qresource>
+    <qresource prefix="/cluster_hmi_img"/>
+</RCC>
