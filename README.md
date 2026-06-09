@@ -26,22 +26,6 @@ Dự án được phát triển theo mô hình phân tách giữa:
 * Mô phỏng bản đồ và các thông tin điều hướng
 * Kết nối và trao đổi dữ liệu giữa firmware và giao diện HMI
 
-## Cấu trúc dự án
-
-Smart-Car-HMI-Qt-Firmware
-│
-├── Firmware/
-│   └── Firmware nhúng
-│
-├── cluster_hmi/
-│   └── Giao diện Digital Cluster bằng Qt/QML
-│
-├── Qt_HMI/
-│   └── Ứng dụng Qt hỗ trợ mô phỏng
-│
-└── README.md
-```
-
 ## Công nghệ sử dụng
 
 ### Embedded
